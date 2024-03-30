@@ -1,0 +1,41 @@
+name: flutter_offline_fm
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  file_picker: ^6.1.1
+  shared_preferences: ^2.2.2
+  provider: ^6.0.4
+  http: ^0.13.5
+  mp3_info: ^0.2.1
+  
+  flutter_background_service: ^5.0.5
+  flutter_background_service_android: ^6.2.2
+  flutter_local_notifications: ^17.0.0
+  permission_handler: ^11.3.0
+
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+
+  marquee: ^2.2.3
+  loading_animation_widget: ^1.2.0+4
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/radio_background.jpg
+    - lib/data/stream_list.json
